@@ -46,8 +46,8 @@ class Animal:
         self.name = name
         self.species = species
         self.age = age
-        self.height = height
-        self.width = width
+        self.height: int = height
+        self.width: int = width
         self.preferred_habitat = preferred_habitat
         self.health = round(100 * (1/age), 3)
 
